@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import About from '../components/About'
 import Skills from '../components/Skills'
+import Carrer from '../components/Carrer'
 export default function Home() {
     return (
         <div>
@@ -18,6 +19,7 @@ export default function Home() {
             <Main />
             <About />
             <Skills />
+            <Carrer />
         </div>
     )
 }
