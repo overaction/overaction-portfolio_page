@@ -7,7 +7,7 @@ const Skills = () => {
                 <h1 className="inline-block border-b-4 border-gray-300 py-2 mb-12">
                     Skills
                 </h1>
-                <h2 className='mb-6'>What I Can Do or Experienced</h2>
+                <h2 className='mb-6 whitespace-nowrap'>What I Can Do or Experienced</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
