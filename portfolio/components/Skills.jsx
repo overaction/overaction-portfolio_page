@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Skills = () => {
     return (
-        <div className="w-full lg:h-screen p-2">
+        <div id='skills' className="w-full lg:h-screen p-2">
             <div className="max-w-[1240px] mx-auto flex flex-col justify-center items-center h-full">
                 <h1 className="inline-block border-b-4 border-gray-300 py-2 mb-12">
                     Skills

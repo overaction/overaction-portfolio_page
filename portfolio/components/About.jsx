@@ -7,7 +7,7 @@ import {
 } from 'react-icons/ai'
 const About = () => {
     return (
-        <div className="w-full  p-2 flex items-center text-center">
+        <div id='about' className="w-full  p-2 flex items-center text-center">
                 <div className="w-full flex justify-center items-center flex-col">
                     <h1 className="inline-block border-b-4 border-gray-300 py-2 mb-12">
                         About Me

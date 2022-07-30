@@ -5,10 +5,10 @@ import { BsFillCircleFill } from 'react-icons/bs'
 
 const Carrer = () => {
     return (
-        <div className="w-full lg:h-screen p-2">
+        <div id='carrer' className="w-full lg:h-screen p-2">
             <div className="max-w[1240px] mx-auto flex flex-col justify-center items-center mt-16">
                 <h1 className="inline-block border-b-4 border-gray-300 py-2 mb-12">
-                    Carrer
+                    Career
                 </h1>
                 <div className="flex flex-col sm:flex-row gap-8">
                     <div className=''>
