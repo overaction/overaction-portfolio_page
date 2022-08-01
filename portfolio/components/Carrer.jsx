@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { BiChevronsRight } from 'react-icons/bi'
 import { BsFillCircleFill } from 'react-icons/bs'
-
+import wipsImg from '../public/assets/wips.gif'
 const Carrer = () => {
     return (
         <div id='carrer' className="w-full lg:h-screen p-2">
@@ -14,7 +14,7 @@ const Carrer = () => {
                     <div className=''>
                     <div className="w-[200px] h-[200px] m-auto text-center leading-[16.5] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                         <Image
-                            src="/../public/assets/wips.gif"
+                            src={wipsImg}
                             width="150px"
                             height="100px"
                         />

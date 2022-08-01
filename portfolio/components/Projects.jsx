@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import propertyImg from '../public/assets/skills/vue.png'
+import vueImg from '../public/assets/skills/vue.png'
 const Projects = () => {
     return (
         <div id="projects" className="w-full">
@@ -12,7 +12,7 @@ const Projects = () => {
                     <div className="flex flex-col h-auto w-auto shadow-xl shadow-gray-400 rounded-xl p-4 sm:flex-row ">
                         <Image
                             className="rounded-xl"
-                            src={propertyImg}
+                            src={vueImg}
                             width="800px"
                             height="800px"
                         />
