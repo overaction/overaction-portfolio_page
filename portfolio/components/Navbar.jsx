@@ -14,7 +14,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
     const [navBg, setNavBg] = useState('#ecf0f3')
-    const [linkColor, setLinkColor] = useState('#1f2937');
+    const [linkColor, setLinkColor] = useState('#1f2937')
 
     const handleNav = () => {
         setNav(!nav)
@@ -29,7 +29,7 @@ const Navbar = () => {
     }, [])
     return (
         <div
-        style={{backgroundColor: `${navBg}`}}
+            style={{ backgroundColor: `${navBg}` }}
             className={
                 shadow
                     ? 'fixed w-full h-20 shadow-xl z-[100]'
@@ -38,15 +38,13 @@ const Navbar = () => {
         >
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Link href="/">
-                    <Image
-                        src={logoImg}
-                        alt="/"
-                        width="125"
-                        height="70"
-                    />
+                    <Image src={logoImg} alt="/" width="125" height="70" />
                 </Link>
                 <div>
-                    <ul style={{color: `${linkColor}`}} className="hidden md:flex">
+                    <ul
+                        style={{ color: `${linkColor}` }}
+                        className="hidden md:flex"
+                    >
                         <Link href="/">
                             <li className="ml-10 text-sm uppercase hover:border-b">
                                 home
@@ -109,25 +107,50 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="border-b border-gray-300 my-4">
-                            <p className="w-[85%] md:w-[90%] py-4">Menu</p>
+                            <p className="w-[85%] md:w-[90%] py-4"></p>
                         </div>
                     </div>
                     <div className="py-4 flex flex-col">
                         <ul>
                             <Link href="/">
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">Home</li>
+                                <li
+                                    onClick={() => setNav(false)}
+                                    className="py-4 text-sm"
+                                >
+                                    Home
+                                </li>
                             </Link>
                             <Link href="/#about">
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">About</li>
+                                <li
+                                    onClick={() => setNav(false)}
+                                    className="py-4 text-sm"
+                                >
+                                    About
+                                </li>
                             </Link>
                             <Link href="/#skills">
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">Skills</li>
+                                <li
+                                    onClick={() => setNav(false)}
+                                    className="py-4 text-sm"
+                                >
+                                    Skills
+                                </li>
                             </Link>
                             <Link href="/#career">
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">Career</li>
+                                <li
+                                    onClick={() => setNav(false)}
+                                    className="py-4 text-sm"
+                                >
+                                    Career
+                                </li>
                             </Link>
                             <Link href="/#projects">
-                                <li onClick={() => setNav(false)} className="py-4 text-sm">Projects</li>
+                                <li
+                                    onClick={() => setNav(false)}
+                                    className="py-4 text-sm"
+                                >
+                                    Projects
+                                </li>
                             </Link>
                         </ul>
                         <div className="pt-40">
@@ -136,13 +159,22 @@ const Navbar = () => {
                             </p>
                             <div className="flex items-center my-4 w-full sm:w-[80%]">
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 mr-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <AiFillGithub />
+                                    <a
+                                        href="https://github.com/overaction"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <AiFillGithub />
+                                    </a>
                                 </div>
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 mr-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <AiOutlineBold />
-                                </div>
-                                <div className="rounded-full shadow-lg shadow-gray-400 p-3 mr-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <AiOutlineMail />
+                                    <a
+                                        href="https://tistoryaction.tistory.com"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <AiOutlineBold />
+                                    </a>
                                 </div>
                             </div>
                         </div>

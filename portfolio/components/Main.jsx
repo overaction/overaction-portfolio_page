@@ -1,11 +1,5 @@
 import React from 'react'
-import {
-    AiOutlineClose,
-    AiOutlineMenu,
-    AiFillGithub,
-    AiOutlineBold,
-    AiOutlineMail,
-} from 'react-icons/ai'
+import { AiFillGithub, AiOutlineBold } from 'react-icons/ai'
 
 const Main = () => {
     return (
@@ -27,16 +21,28 @@ const Main = () => {
                         새로운 시도를 두려워하지 않는 것이 저의 장점입니다.
                     </p>
                     <div className="flex items-center justify-around max-w-[330px] m-auto py-4">
-                        <div className='flex flex-col justify-center items-center'>
-                            <p className='font-bold'>깃허브</p>
+                        <div className="flex flex-col justify-center items-center">
+                            <p className="font-bold">깃허브</p>
                             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <AiFillGithub />
+                                <a
+                                    href="https://github.com/overaction"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <AiFillGithub />
+                                </a>
                             </div>
                         </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <p className='font-bold'>블로그</p>
+                        <div className="flex flex-col justify-center items-center">
+                            <p className="font-bold">블로그</p>
                             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <AiOutlineBold />
+                                <a
+                                    href="https://tistoryaction.tistory.com"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <AiOutlineBold />
+                                </a>
                             </div>
                         </div>
                     </div>
