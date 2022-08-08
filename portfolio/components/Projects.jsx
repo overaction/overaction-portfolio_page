@@ -3,8 +3,8 @@ import React from 'react'
 import vueImg from '../public/assets/skills/vue.png'
 const Projects = () => {
     return (
-        <div id="projects" className="w-full">
-            <div className="max-w-[1240px] mx-auto px-2 py-16 flex flex-col items-center justify-center mt-20">
+        <div id="projects" className="w-full p-20 lg:h-screen">
+            <div className="max-w-[1240px] mx-auto px-2 py-16 flex flex-col items-center justify-center">
                 <h1 className="text-center inline-block border-b-4 border-gray-300 py-2 mb-12">
                     Projects
                 </h1>

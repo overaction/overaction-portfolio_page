@@ -10,7 +10,7 @@ import nodeImg from '../public/assets/skills/node.png'
 import springImg from '../public/assets/skills/springboot.png'
 import mssqlImg from '../public/assets/skills/mssql.png'
 import mongoImg from '../public/assets/skills/mongo.png'
-import gitImg from '../public/assets/skills/github.png'
+import gitImg from '../public/assets/skills/git.png'
 import svnImg from '../public/assets/skills/svn.png'
 import netlifyImg from '../public/assets/skills/netlify.png'
 import vercelImg from '../public/assets/skills/vercel.png'
@@ -18,7 +18,7 @@ import awsImg from '../public/assets/skills/aws.png'
 
 const Skills = () => {
     return (
-        <div id='skills' className="w-full lg:h-screen p-2">
+        <div id='skills' className="w-full p-20">
             <div className="max-w-[1240px] mx-auto flex flex-col justify-center items-center h-full">
                 <h1 className="inline-block border-b-4 border-gray-300 py-2 mb-12">
                     Skills
@@ -175,7 +175,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Github</h3>
+                                <h3>Git</h3>
                             </div>
                         </div>
                     </div>
