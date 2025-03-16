@@ -49,7 +49,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Helm</h3>
+                                <h3>Docker</h3>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>JavaScript</h3>
+                                <h3>AWS</h3>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Vue</h3>
+                                <h3>ArgoCD</h3>
                             </div>
                         </div>
                     </div>
@@ -91,35 +91,35 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
+                                <h3>Jenkins</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image
+                                    src={nextImg}
+                                    width="64px"
+                                    height="64px"
+                                />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>Vue</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image
+                                    src={nextImg}
+                                    width="64px"
+                                    height="64px"
+                                />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
                                 <h3>React</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image
-                                    src={nextImg}
-                                    width="64px"
-                                    height="64px"
-                                />
-                            </div>
-                            <div className="flex flex-col items-center justify-center">
-                                <h3>GraphQL</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image
-                                    src={nextImg}
-                                    width="64px"
-                                    height="64px"
-                                />
-                            </div>
-                            <div className="flex flex-col items-center justify-center">
-                                <h3>NextJS</h3>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Node</h3>
+                                <h3>NextJS</h3>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Spring boot</h3>
+                                <h3>GraphQL</h3>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>MariaDB</h3>
+                                <h3>Javascript</h3>
                             </div>
                         </div>
                     </div>
@@ -175,7 +175,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>MongoDB</h3>
+                                <h3>Spring boot</h3>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>ArgoCD</h3>
+                                <h3>nodeJS</h3>
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Docker</h3>
+                                <h3>MariaDB</h3>
                             </div>
                         </div>
                     </div>
@@ -217,7 +217,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>MSSQL</h3>
+                                <h3>PostgreSQL</h3>
                             </div>
                         </div>
                     </div>
@@ -231,7 +231,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Opensearch</h3>
+                                <h3>MongoDB</h3>
                             </div>
                         </div>
                     </div>
@@ -245,7 +245,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>AWS</h3>
+                                <h3>EFK stack</h3>
                             </div>
                         </div>
                     </div>
@@ -273,7 +273,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Jenkins</h3>
+                                <h3>Helm</h3>
                             </div>
                         </div>
                     </div>
@@ -287,7 +287,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Python</h3>
+                                <h3>Kustomize</h3>
                             </div>
                         </div>
                     </div>

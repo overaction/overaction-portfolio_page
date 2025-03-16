@@ -10,7 +10,7 @@ const Carrer = () => {
                 <h1 className="inline-block border-b-4 border-gray-300 py-2 mb-12">
                     Career
                 </h1>
-                <div className="flex flex-col sm:flex-row gap-8">
+                <div className="flex flex-col sm:flex-row gap-8 ml-11">
                     <div className=''>
                     <div className="w-[200px] h-[200px] m-auto text-center leading-[16.5] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                         <Image
@@ -39,21 +39,33 @@ const Carrer = () => {
                             기술 스택
                         </h2>
                         <p className="mb-14 ml-2 font-mono">
-                            Private Cloud, Public Cloud(AWS), Kubernetes, Docker, Helm,
+                            Public Cloud(AWS), Private Cloud, Kubernetes, Docker, ArgoCD, GCR
                             <br /> 
-                            EFK stack, Jaeger, Tibero, PostgreSQL
+                            Jenkins, EFK stack, Jaeger, Helm, Kustomize, RDS, MariaDB
                         </p>
                         <h2 className="text-3xl flex mb-3">
                             <BiChevronsRight size={40} />
-                            Build CRM 서비스 개발
+                            디스플레이 테마, 디지털키2 프로젝트
                         </h2>
                         <div className="mb-6 ml-5">
                             <ul className='list-disc text-[1.1rem] mb-7'>
-                                <li>요구사항 분석, API 설계 및 DB 스키마 정의, Private 인프라 아키텍처 설계</li>
-                                <li>무료체험 : 에디터 추가 및 메일 전송 기능, 무료체험 등록, 승인, 거절 기능, 메모 기능 추가</li>
-                                <li>계약관리 및 주문관리에서 계약과 주문의 상세 페이지 개발</li>
-                                <li>공지사항, 팝업관리 페이지 추가, 메뉴얼 드래그 앤 드롭 기능 추가</li>
-                                <li>사용자가 적용한 검색어, 필터값이 상세 페이지에서 뒤로가기를 하더라도 유지되는 기능 추가</li>
+                            <span className='font-mono' 
+                            style={{fontFamily: 'Verdana, sans-serif', fontSize: '17px'}}>
+                                <span className='font-bold'>Private Cloud / AWS</span> 인프라 아키텍처 설계 및 구축
+                                <br/>
+                                요구사항 기반 API 스펙 정의, DB 스키마 설계
+                                <br/>
+                                <span className='font-bold'>Kubernetes, Nginx, LB </span> 기반 네트워크 구축
+                                <br/>
+                                <span className='font-bold'>Jenkins CI/CD </span> 검증, 운영 프로세스 정의 및 통합
+                                <br/>
+                                <span className='font-bold'>Kustomize, Helm template</span> 작성 및 <span className='font-bold'>ArgoCD, GCR</span> 배포 프로세스 구축
+                                <br/>
+                                <span className='font-bold'>EFK stack </span>및 <span className='font-bold'>Jaeger </span> 활용한 모니터링 체계 구축
+                                <br/>
+                                성능 부하테스트 진행하여 DB hikari 설정 최적화, 현지 출장 테스트 수행, 운영 업무 수행
+                                </span>{' '}
+                            <br />
                             </ul>
                         </div>
                     </div>
@@ -96,11 +108,19 @@ const Carrer = () => {
                         </h2>
                         <div className="mb-6 ml-5">
                             <ul className='list-disc text-[1.1rem] mb-7'>
-                                <li className='cursor-default'><span className='font-bold'>회원관리 : </span>  회원 등록/탈퇴 및 다중 등록, 그룹 선택 기능, 검색 필터 등 개발</li>
-                                <li className='cursor-default'><span className='font-bold'>무료체험 : </span> 무료체험 등록/승인/거절 기능, 메일 발송 에디터 기능, 메모 기능 등 개발</li>
-                                <li className='cursor-default'><span className='font-bold'>계약관리 : </span> 계약 내용, 계약 프로세스 및 결제 내역 등 개발</li>
-                                <li className='cursor-default'><span className='font-bold'>주문관리 : </span> 주문 정보, 주문 상태 관리 및 상태에 따른 이메일 발송 기능 등 개발</li>
-                                <li className='cursor-default'><span className='font-bold'>기타 : </span> API 사용 내역, 공지사항/이용약관/메뉴얼 등 개발</li>
+                            <span className='font-mono' 
+                            style={{fontFamily: 'Verdana, sans-serif', fontSize: '17px'}}>
+                                <span className='font-bold'>회원관리 : </span>  회원 등록/탈퇴 및 다중 등록, 그룹 선택 기능, 검색 필터 등 개발
+                                <br/>
+                                <span className='font-bold'>무료체험 : </span> 무료체험 등록/승인/거절 기능, 메일 발송 에디터 기능, 메모 기능 등 개발
+                                <br/>
+                                <span className='font-bold'>계약관리 : </span> 계약 내용, 계약 프로세스 및 결제 내역 등 개발
+                                <br/>
+                                <span className='font-bold'>주문관리 : </span> 주문 정보, 주문 상태 관리 및 상태에 따른 이메일 발송 기능 등 개발
+                                <br/>
+                                <span className='font-bold'>기타 : </span> API 사용 내역, 사내 공지사항/이용약관/메뉴얼 업데이트 기능 등 개발
+                                <br/>
+                                </span>{' '}
                             </ul>
                         </div>
                         <h2 className="text-3xl flex mb-3">
@@ -109,9 +129,15 @@ const Carrer = () => {
                         </h2>
                         <div className="mb-6 ml-5">
                             <ul className='list-disc text-[1.1rem]'>
-                                <li className='cursor-default'><span className='font-bold'>데이터 치환 위젯 : </span> 성능 개선, DB 저장 및 적용 버튼 활성화 시 오류 수정</li>
-                                <li className='cursor-default'><span className='font-bold'>다운로드 위젯 : </span> : 사내 저장소 저장 기능 추가 개발</li>
-                                <li className='cursor-default'><span className='font-bold'>데이터 분류 위젯 : </span> : 위젯 초기화 및 카테고리 편집 오류 수정, 필드 복제 기능 개발</li>
+                            <span className='font-mono' 
+                            style={{fontFamily: 'Verdana, sans-serif', fontSize: '17px'}}>
+                                <span className='font-bold'>데이터 치환 위젯 : </span> 성능 개선, DB 저장 및 적용 버튼 활성화 시 오류 수정
+                                <br/>
+                                <span className='font-bold'>다운로드 위젯 : </span> : 사내 저장소 저장 기능 추가 개발
+                                <br/>
+                                <span className='font-bold'>데이터 분류 위젯 : </span> : 위젯 초기화 및 카테고리 편집 오류 수정, 필드 복제 기능 개발
+                                
+                                </span>{' '}
                             </ul>
                         </div>
                     </div>
