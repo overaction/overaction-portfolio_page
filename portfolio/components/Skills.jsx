@@ -24,10 +24,10 @@ const Skills = () => {
                     Skills
                 </h1>
                 <h2 className='mb-6 whitespace-nowrap'>What I Can Do or Experienced</h2>
-                <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-2">
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
+                            <div className="m-auto items-center">
                                 <Image
                                     src={htmlImg}
                                     width="64px"
@@ -35,7 +35,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>HTML</h3>
+                                <h3>kubernetes</h3>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>CSS</h3>
+                                <h3>Helm</h3>
                             </div>
                         </div>
                     </div>
@@ -105,6 +105,20 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
+                                <h3>GraphQL</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image
+                                    src={nextImg}
+                                    width="64px"
+                                    height="64px"
+                                />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
                                 <h3>NextJS</h3>
                             </div>
                         </div>
@@ -147,7 +161,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>MSSQL</h3>
+                                <h3>MariaDB</h3>
                             </div>
                         </div>
                     </div>
@@ -175,7 +189,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Git</h3>
+                                <h3>ArgoCD</h3>
                             </div>
                         </div>
                     </div>
@@ -189,7 +203,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>SVN</h3>
+                                <h3>Docker</h3>
                             </div>
                         </div>
                     </div>
@@ -203,7 +217,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Vercel</h3>
+                                <h3>MSSQL</h3>
                             </div>
                         </div>
                     </div>
@@ -217,7 +231,7 @@ const Skills = () => {
                                 />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Netlify</h3>
+                                <h3>Opensearch</h3>
                             </div>
                         </div>
                     </div>
@@ -232,6 +246,48 @@ const Skills = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>AWS</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image
+                                    src={awsImg}
+                                    width="64px"
+                                    height="64px"
+                                />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>Jaeger</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image
+                                    src={awsImg}
+                                    width="64px"
+                                    height="64px"
+                                />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>Jenkins</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image
+                                    src={awsImg}
+                                    width="64px"
+                                    height="64px"
+                                />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>Python</h3>
                             </div>
                         </div>
                     </div>

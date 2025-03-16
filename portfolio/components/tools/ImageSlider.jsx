@@ -22,8 +22,8 @@ const ImageSlider = ({ slides }) => {
                 <Image
                     className="rounded-xl ease-in-out duration-200"
                     src={slides[currentIdx]}
-                    width="1200px"
-                    height="1200px"
+                    width="1300px"
+                    height="900px"
                 />
             </div>
             <div className='mt-4 flex justify-center items-center'>

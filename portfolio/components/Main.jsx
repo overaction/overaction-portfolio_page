@@ -21,7 +21,7 @@ const Main = () => {
                         새로운 시도를 두려워하지 않는 것이 저의 장점입니다.
                     </p>
                     <div className="flex items-center justify-around max-w-[330px] m-auto py-4">
-                        <div className="flex flex-col justify-center items-center">
+                    {/* <div className="flex flex-col justify-center items-center">
                             <p className="font-bold">깃허브</p>
                             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                 <a
@@ -32,7 +32,7 @@ const Main = () => {
                                     <AiFillGithub />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="flex flex-col justify-center items-center">
                             <p className="font-bold">블로그</p>
                             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
