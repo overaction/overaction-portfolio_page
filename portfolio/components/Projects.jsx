@@ -20,7 +20,7 @@ const Projects = () => {
     const slides1 = [ins1, ins3, ins4]
     const slides2 = [keep1Img, keep2Img]
     return (
-        <div id="projects" className="w-full p-20 lg:h-screen">
+        <div id="awards" className="w-full p-20 lg:h-screen">
             <div className="max-w-[1240px] mx-auto px-2 py-16 flex flex-col items-center justify-center">
                 <h1 className="text-center inline-block border-b-4 border-gray-300 py-2 mb-12">
                     수상 기록

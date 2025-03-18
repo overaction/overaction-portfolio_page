@@ -60,12 +60,12 @@ const Navbar = () => {
                                 Skills
                             </li>
                         </Link>
-                        <Link href="/#carrer">
+                        <Link href="/#career">
                             <li className="ml-10 text-sm uppercase hover:border-b">
-                                Carrer
+                                Career
                             </li>
                         </Link>
-                        <Link href="/#projects">
+                        <Link href="/#awards">
                             <li className="ml-10 text-sm uppercase hover:border-b">
                                 Awards
                             </li>
@@ -144,12 +144,12 @@ const Navbar = () => {
                                     Career
                                 </li>
                             </Link>
-                            <Link href="/#projects">
+                            <Link href="/#awards">
                                 <li
                                     onClick={() => setNav(false)}
                                     className="py-4 text-sm"
                                 >
-                                    Projects
+                                    Awards
                                 </li>
                             </Link>
                         </ul>
@@ -158,15 +158,7 @@ const Navbar = () => {
                                 Let's Connect
                             </p>
                             <div className="flex items-center my-4 w-full sm:w-[80%]">
-                                <div className="rounded-full shadow-lg shadow-gray-400 p-3 mr-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <a
-                                        href="https://github.com/overaction"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <AiFillGithub />
-                                    </a>
-                                </div>
+                                
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 mr-4 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <a
                                         href="https://tistoryaction.tistory.com"

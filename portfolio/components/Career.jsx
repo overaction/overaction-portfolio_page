@@ -3,9 +3,9 @@ import React from 'react'
 import { BiChevronsRight } from 'react-icons/bi'
 import wipsImg from '../public/assets/wips.gif'
 import autoImg from '../public/assets/autoever.png'
-const Carrer = () => {
+const Career = () => {
     return (
-        <div id='carrer' className="w-full p-20">
+        <div id='career' className="w-full p-20">
             <div className="max-w[1240px] mx-auto flex flex-col justify-center items-center">
                 <h1 className="inline-block border-b-4 border-gray-300 py-2 mb-12">
                     Career
@@ -148,4 +148,4 @@ const Carrer = () => {
     )
 }
 
-export default Carrer
+export default Career
