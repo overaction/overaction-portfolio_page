@@ -31,7 +31,7 @@ const Career = () => {
                         <p className="text-xl mb-8 font-mono">
                             <span className='font-mono' 
                             style={{fontFamily: 'Verdana, sans-serif', fontSize: '17px'}}>
-                                디지털키2, 디스플레이 테마 프로젝트의 인프라 전개를 담당했습니다. </span>{' '}
+                                디지털키2, 디스플레이 테마 프로젝트를 담당했습니다. </span>{' '}
                             <br />
                         </p>
                         <h2 className="text-2xl flex">
