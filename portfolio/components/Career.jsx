@@ -31,7 +31,7 @@ const Career = () => {
                         <p className="text-xl mb-8 font-mono">
                             <span className='font-mono' 
                             style={{fontFamily: 'Verdana, sans-serif', fontSize: '17px'}}>
-                                디지털키2, 디스플레이 테마 프로젝트의 해외 전개를 담당했습니다. </span>{' '}
+                                디지털키2, 디스플레이 테마 프로젝트의 인프라 전개를 담당했습니다. </span>{' '}
                             <br />
                         </p>
                         <h2 className="text-2xl flex">
@@ -43,11 +43,8 @@ const Career = () => {
                             <br /> 
                             Jenkins, EFK stack, Jaeger, Helm, Kustomize, RDS, MariaDB
                         </p>
-                        <h2 className="text-3xl flex mb-3">
-                            <BiChevronsRight size={40} />
-                            디스플레이 테마, 디지털키2 프로젝트
-                        </h2>
-                        <div className="mb-6 ml-5">
+                        
+                        <div className="mb-6 ml-11">
                             <ul className='list-disc text-[1.1rem] mb-7'>
                             <span className='font-mono' 
                             style={{fontFamily: 'Verdana, sans-serif', fontSize: '17px'}}>
@@ -63,7 +60,7 @@ const Career = () => {
                                 <br/>
                                 <span className='font-bold'>EFK stack </span>및 <span className='font-bold'>Jaeger </span> 활용한 모니터링 체계 구축
                                 <br/>
-                                성능 부하테스트 진행하여 DB hikari 설정 최적화, 현지 출장 테스트 수행, 운영 업무 수행
+                                성능 부하테스트 진행하며 DB hikari 설정 최적화, 현지 출장 테스트 및 운영 업무 수행
                                 </span>{' '}
                             <br />
                             </ul>
