@@ -52,11 +52,11 @@ const Career = () => {
                                 <br/>
                                 요구사항 기반 API 스펙 정의, DB 스키마 설계
                                 <br/>
-                                <span className='font-bold'>Kubernetes, Nginx, LB </span> 기반 네트워크 구축
+                                <span className='font-bold'>Kubernetes, Nginx, LB </span> 활용하여 인프라 구축
                                 <br/>
                                 <span className='font-bold'>Jenkins CI/CD </span> 검증, 운영 프로세스 정의 및 통합
                                 <br/>
-                                <span className='font-bold'>Kustomize, Helm template</span> 작성 및 <span className='font-bold'>ArgoCD, GCR</span> 배포 프로세스 구축
+                                <span className='font-bold'>Kustomize, Helm template</span> 구성 및 <span className='font-bold'>ArgoCD, GCR</span> 배포 프로세스 구축
                                 <br/>
                                 <span className='font-bold'>EFK stack </span>및 <span className='font-bold'>Jaeger </span> 활용한 모니터링 체계 구축
                                 <br/>
