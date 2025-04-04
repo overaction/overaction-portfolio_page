@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Main from '../components/Main'
 import About from '../components/About'
 import Skills from '../components/Skills'
+import Certified from '../components/Certified'
 import Career from '../components/Career'
 import Projects from '../components/Projects'
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             <Main />
             <About />
             <Skills />
+            <Certified />
             <Career />
             <Projects />
         </div>
