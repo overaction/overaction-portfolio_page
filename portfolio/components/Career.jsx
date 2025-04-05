@@ -67,7 +67,7 @@ const Career = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col sm:flex-row gap-8">
+                <div className="flex flex-col sm:flex-row gap-8 ml-1">
                     <div className=''>
                     <div className="w-[200px] h-[200px] m-auto text-center leading-[16.5] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                         <Image
